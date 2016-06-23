@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6512DD461D1B87EC0070A157 /* TestPodArc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6512DD451D1B87EC0070A157 /* TestPodArc.h */; };
+		6512DD481D1B87EC0070A157 /* TestPodArc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6512DD471D1B87EC0070A157 /* TestPodArc.m */; };
+		6512DD501D1B87F80070A157 /* CCCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6512DD4F1D1B87F80070A157 /* CCCC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6512DD401D1B87EC0070A157 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6512DD461D1B87EC0070A157 /* TestPodArc.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6512DD421D1B87EC0070A157 /* libTestPodArc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestPodArc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6512DD451D1B87EC0070A157 /* TestPodArc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodArc.h; sourceTree = "<group>"; };
+		6512DD471D1B87EC0070A157 /* TestPodArc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodArc.m; sourceTree = "<group>"; };
+		6512DD4E1D1B87F80070A157 /* CCCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCC.h; sourceTree = "<group>"; };
+		6512DD4F1D1B87F80070A157 /* CCCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6512DD3F1D1B87EC0070A157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6512DD391D1B87EC0070A157 = {
+			isa = PBXGroup;
+			children = (
+				6512DD441D1B87EC0070A157 /* TestPodArc */,
+				6512DD431D1B87EC0070A157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6512DD431D1B87EC0070A157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6512DD421D1B87EC0070A157 /* libTestPodArc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6512DD441D1B87EC0070A157 /* TestPodArc */ = {
+			isa = PBXGroup;
+			children = (
+				6512DD451D1B87EC0070A157 /* TestPodArc.h */,
+				6512DD471D1B87EC0070A157 /* TestPodArc.m */,
+				6512DD4E1D1B87F80070A157 /* CCCC.h */,
+				6512DD4F1D1B87F80070A157 /* CCCC.m */,
+			);
+			path = TestPodArc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6512DD411D1B87EC0070A157 /* TestPodArc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6512DD4B1D1B87EC0070A157 /* Build configuration list for PBXNativeTarget "TestPodArc" */;
+			buildPhases = (
+				6512DD3E1D1B87EC0070A157 /* Sources */,
+				6512DD3F1D1B87EC0070A157 /* Frameworks */,
+				6512DD401D1B87EC0070A157 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPodArc;
+			productName = TestPodArc;
+			productReference = 6512DD421D1B87EC0070A157 /* libTestPodArc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6512DD3A1D1B87EC0070A157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xbwu;
+				TargetAttributes = {
+					6512DD411D1B87EC0070A157 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6512DD3D1D1B87EC0070A157 /* Build configuration list for PBXProject "TestPodArc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6512DD391D1B87EC0070A157;
+			productRefGroup = 6512DD431D1B87EC0070A157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6512DD411D1B87EC0070A157 /* TestPodArc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6512DD3E1D1B87EC0070A157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6512DD481D1B87EC0070A157 /* TestPodArc.m in Sources */,
+				6512DD501D1B87F80070A157 /* CCCC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6512DD491D1B87EC0070A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6512DD4A1D1B87EC0070A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6512DD4C1D1B87EC0070A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6512DD4D1D1B87EC0070A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6512DD3D1D1B87EC0070A157 /* Build configuration list for PBXProject "TestPodArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6512DD491D1B87EC0070A157 /* Debug */,
+				6512DD4A1D1B87EC0070A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6512DD4B1D1B87EC0070A157 /* Build configuration list for PBXNativeTarget "TestPodArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6512DD4C1D1B87EC0070A157 /* Debug */,
+				6512DD4D1D1B87EC0070A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6512DD3A1D1B87EC0070A157 /* Project object */;
+}
